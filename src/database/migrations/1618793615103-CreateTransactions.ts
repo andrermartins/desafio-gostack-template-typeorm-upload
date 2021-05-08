@@ -12,7 +12,6 @@ export default class CreateTransactions1618793615103
             type: 'uuid',
             isPrimary: true,
             generationStrategy: 'uuid',
-            default: 'uuid_generate_v4',
           },
           {
             name: 'title',
@@ -27,10 +26,6 @@ export default class CreateTransactions1618793615103
           {
             name: 'type',
             type: 'varchar',
-          },
-          {
-            name: 'category_id',
-            type: 'uuid',
           },
           {
             name: 'created_at',
